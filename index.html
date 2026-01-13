@@ -16,6 +16,8 @@
           placeholder="enter your name"
           name="username"
           required
+          maxlength="10"
+          minlength="3"
           id="input-1"
         />
         <br />
@@ -34,6 +36,40 @@
           name="password"
           required
         />
+        <br />
+        <br />
+        <p>Select your gender</p>
+        <input type="radio" id="male-input" value="male" name="gender" />
+        <label for="male-input">male</label>
+        <br />
+        <input type="radio" id="female-input" value="female" name="gender" />
+        <label for="female-input">female</label>
+        <br />
+        <input type="radio" id="other-input" value="other" name="gender" />
+        <label for="other-input">other</label>
+        <br />
+        <br />
+        <p>Select fav. Cars</p>
+        <input type="checkbox" id="audi" value="audi" name="car" />
+        <label for="audi">audi</label>
+        <br />
+
+        <input type="checkbox" id="bmw" value="bmw" name="car" />
+        <label for="bmw">bmw</label>
+        <br />
+
+        <input type="checkbox" id="farari" value="farari" name="car" />
+        <label for="farari">farari</label>
+        <br />
+        <br />
+
+        <label for="lang">Select Language</label>
+        <br />
+        <select id="lang" name="lang">
+          <option value="mr">Marathi</option>
+          <option value="hn">Hindi</option>
+          <option value="en">English</option>
+        </select>
         <br />
         <br />
         <button>Submit</button>
